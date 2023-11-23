@@ -1,0 +1,105 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex  ;
+    justify-content: center;
+    background-color: #ddd;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img {
+    
+
+}
+
+#overskrift {
+    font-size: 24px;
+    text-align: center;
+}
+
+
+#navbar {
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    
+}
+
+#navbar ul :hover {
+    background-color: #604E20;
+    color: red;
+}
+
+#navbar li {
+    border: 1px solid black;
+    display: inline;
+    margin: 20px;
+    padding: 1rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main */
+
+/* Footer */
+
+#grayEmail {
+    flex-direction: column;
+    text-align: center;
+    background-color: #ddd;
+    padding-bottom: 75px;
+}
+
+#emailBox{
+    margin-top: 50px;
+    height: 125px;
+    
+}
+
+#emailForm{
+    gap: 0;
+}
+
+#text{
+    margin-top: 15px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+}
+
+#text label{
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+#emailBox button{
+    background-color: #e6bd43;
+    border: none;
+    font-size: 18px;
+    padding: 7px;
+}
+
+form input{
+    padding: 7px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    #navbar ul li a {
+        display: flex;
+        flex-direction: column;
+    }
+}
