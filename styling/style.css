@@ -7,13 +7,13 @@
 header {
     display: flex  ;
     justify-content: center;
-    background-color: #ddd;
+    background-color: #655c5c;
     align-items: center;
     flex-direction: column;
 }
 
 header img {
-    
+    width: auto;
 
 }
 
@@ -21,7 +21,6 @@ header img {
     font-size: 24px;
     text-align: center;
 }
-
 
 #navbar {
     text-align: center;
@@ -35,14 +34,15 @@ header img {
 }
 
 #navbar ul :hover {
-    background-color: #604E20;
-    color: red;
+    background-color: #909796;
+    color: rgb(255, 255, 255);
 }
 
 #navbar li {
-    border: 1px solid black;
+    border: 3px solid black;
     display: inline;
     margin: 20px;
+    border-radius: 10px;
     padding: 1rem;
 }
 
@@ -85,14 +85,37 @@ header img {
 }
 
 #emailBox button{
-    background-color: #e6bd43;
+    background-color: #eab30f;
     border: none;
     font-size: 18px;
     padding: 7px;
 }
+ #emailBox button :hover {
+    background-color: #e7c768;
+ }
 
 form input{
     padding: 7px;
+}
+
+.indexcontainerL {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.indeximg {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+.texth2L {
+    text-align: center;
+}
+.texth2L p {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Media Queries */
