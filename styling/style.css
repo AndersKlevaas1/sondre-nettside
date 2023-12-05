@@ -97,13 +97,13 @@ header img {
     margin-right: 15%;
 }
 
- main img{
+#mainIndex img{
     width: 500px;
     height: 300px;
     transition: transform 0.3s ease-in-out;
 } 
 
-main img:hover {
+#mainIndex img:hover {
     transform: scale(1.2);
 }
 
