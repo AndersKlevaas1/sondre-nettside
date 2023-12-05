@@ -3,6 +3,8 @@
 }
 body {
     max-width: auto;
+    background-color: black;
+    color: white;
 }
 
 /* Header */
@@ -120,7 +122,6 @@ header img {
 #grayEmail {
     flex-direction: column;
     text-align: center;
-    background-color: #ddd;
     padding-bottom: 75px;
 }
 
