@@ -79,6 +79,7 @@ header img {
 
 .indexcontainerL {
     font-size: 20px;
+    gap: 15%;
 }
 
 .indexcontainerR {
@@ -104,7 +105,7 @@ header img {
 
 #textR p, h2{
     width: 60%;
-    margin-left: 100px;
+    margin-left: 3%;
 }
 /* Footer */
 
