@@ -107,6 +107,10 @@ main img:hover {
     transform: scale(1.2);
 }
 
+main {
+    padding-bottom: 2rem;
+}
+
 .indexcontainerL {
     font-size: 20px;
     /* gap: 15%; */
@@ -151,11 +155,17 @@ footer {
 }
 
 
-#grayEmail {
+#footerEmail {
     flex-direction: column;
     text-align: center;
     padding-bottom: 75px;
     padding-top: 10px;
+}
+
+#footerEmail a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
 }
 
 #emailBox{
@@ -184,7 +194,8 @@ footer {
     background-color: #eab30f;
     border: none;
     font-size: 18px;
-    padding: 7px;
+    padding: 0.5rem; 
+    padding-top: 0.6rem;
 }
  #emailBox button :hover {
     background-color: #e7c768;
