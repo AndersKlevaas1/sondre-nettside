@@ -243,6 +243,35 @@ form input{
     padding: 7px;
 }
 
+/* Om oss main */
+
+/* Setter max bredde og høyde på bilde, og ramme */
+.ansattitem img {
+    height: 400px;
+    width: 300px;
+    border-style: groove
+}
+ 
+/* En flexbox som skal inneholde flex items */
+.ansattcontent {
+    flex-direction: row;
+    display: flex;
+    justify-content:center;
+}
+ 
+ /* Flex items som inneholder bildet, h2 og UL */
+.ansattitem {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+ 
+/* Gjør teksten i li større en standard */
+.ansattitem ul li {
+    font-size: large;
+}
+
 
 
 /* Media Queries */
