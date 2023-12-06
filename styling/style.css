@@ -1,21 +1,27 @@
+/* * = endre alt på nettsiden */
 * {
     font-family: 'Oswald', sans-serif;
 }
+
+/* Setter maxwidth på alt innenfor body */
 body {
     max-width: auto;
 }
 
+/* Bakgrunnsfarge og tekstfarge på main */
 main {
     background-color: black;
     color: white;
 }
 
+/* Farge på HTML (rundt skjermen) */
 html {
     background-color: black;
 }
 
 /* Header */
 
+/* Displayer header som flex / sentrerer og legger alt i kolonne */
 header {
     display: flex  ;
     justify-content: center;
@@ -24,34 +30,39 @@ header {
     flex-direction: column;
 }
 
+/* Maksgrense på bildet i header */
 header img {
     max-width: 100%;
     width: 100%;
 }
 
+/* Sentrert overskrift og fontstørrelse */
 #overskrift {
     font-size: 24px;
     text-align: center;
 }
 
+/* Sentrerer navbar-teksten og legger på padding rundt de */
 #navbar {
     text-align: center;
     padding: 1rem;
     font-size: 20px;
-    
 }
 
+/* Transition på ul sli at den kan blåses opp og bruker 0.3sec på det */
 #navbar ul {
     list-style-type: none;
     transition: transform 0.3s ease-in-out;
     
 }
 
+/* Pseudoklasse med hover (fungerer bare når man holder over UL) */
 #navbar ul :hover {
     background-color: #909796;
     color: rgb(255, 255, 255);
 }
 
+/* Styling på boksen rundt a elementet og styling på LI */
 #navbar li {
     border: 3px solid rgb(86, 86, 86);
     display: inline;
@@ -63,65 +74,80 @@ header img {
     
 }
 
+/* Pseudoklasse med hover, scaler den ut 1.2 ganger */
 #navbar ul:hover{
     transform: scale(1.2);
 }
 
+/* Styling på a elementet i navbar */
 #navbar ul li a {
     text-decoration: none;
     color: black;
     color: white;
 }
 
+/* legger til underline på teksten med psudeoklasse */
 #navbar ul li a:hover {
     text-decoration: underline; 
 }
 
 /* Main */
 
+/* Displayer containeren som flex, sentrerer og plasserer innholdet til venstre */
 .indexcontainerL {
     display: flex;
     align-items: center;
     justify-content: left;
 }
+
+/* Legger margin på elementene inne i indeximg, og skyver bildet til høyre med 10% */
 .indeximg {
     margin: 5rem;
     margin-left: 10%;
 }
+
+/* sentrerer teksten */
 .texth2L {
     text-align: center;
 }
+
+/* Legger teksten til venstre, og legger margin på høyre og venstre side av p-tagen */
 .texth2L p {
     text-align: left;
     margin-left: 15%;
     margin-right: 15%;
 }
 
+/*setter sizen til bildene og lar bildet bruke 0.3sec på å zoome ut og inn  */
 #mainIndex img{
     width: 500px;
     height: 300px;
     transition: transform 0.3s ease-in-out;
 } 
-
+/* Pseudoklasse med hover, scaler den ut 1.2 ganger */
 #mainIndex img:hover {
     transform: scale(1.2);
 }
 
+/* Legger på padding i bunn av main slik at gifen passer */
 main {
     padding-bottom: 2rem;
 }
 
+/* Endrer font-størrelsen i containerL */
 .indexcontainerL {
     font-size: 20px;
     /* gap: 15%; */
 }
 
+/* Displayer R som flex */
 .indexcontainerR {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+/* max-bredde på 500px, 5% margin på venstre (skape luft) på bildeelementet */
 .indexcontainerR img {
     max-width: 500px;
     width: 100%;
@@ -129,6 +155,7 @@ main {
     margin-right: 5%;
 }   
 
+/* Displayer som flex, legger alt i kolonne, setter max-bredde på 80% av 100%, og endrer fontstørrelsen på elementene i TextR */
 #textR {
     display: flex;
     flex-direction: column;
@@ -137,24 +164,27 @@ main {
     font-size: 20px;
 }
 
+/* max bredde 60% av 100%, 15% luft på venstre side, og plasserer texten til venstre inne i boksen */
 #textR p{
     max-width: 60%;
     margin-left: 15%;
     text-align: left;
 }
 
+/* sentrerer overskriften og legger 10% luft på venstre side */
 #textR h2{
     text-align:center;
     margin-right: 10%;
 }
 /* Footer */
 
+/* Bakgrunnsfarge på footeren og hvit tekst */
 footer {
     background-color: rgb(29, 29, 29);
     color: white;
 }
 
-
+/* legger elementene inne i footerEmail i kolonne, sentrerer tekten, lager boks under og over med padding */
 #footerEmail {
     flex-direction: column;
     text-align: center;
@@ -162,22 +192,25 @@ footer {
     padding-top: 10px;
 }
 
+/* fjerner underlinen på a-link og gjør teksten svart */
 #footerEmail a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 
 }
 
+/* Lager 50px luft på toppen og setter høyden til 125px */
 #emailBox{
     margin-top: 50px;
-    height: 125px;
-    
+    height: 125px; 
 }
 
+/* Fjerner all gap i emailform */
 #emailForm{
     gap: 0;
 }
 
+/* 15px luft i toppen, endrer textstørrelsen, fjerner boksen rundt og legger 20px luft på venstre side */
 #text{
     margin-top: 15px;
     font-size: 20px;
@@ -185,11 +218,13 @@ footer {
     margin-left: 20px;
 }
 
+/* endrer størrelsen på teksten og lager 50px luft i toppen */
 #text label{
     font-size: 32px;
     margin-top: 50px;
 }
 
+/* Bakgrunnsfarge i gull, fjerner ramme rundt, endrer størrelsen, legger på padding rundt og ekstra på toppen på knappen */
 #emailBox button{
     background-color: #eab30f;
     border: none;
@@ -197,10 +232,13 @@ footer {
     padding: 0.5rem; 
     padding-top: 0.6rem;
 }
- #emailBox button :hover {
+
+/* Psuedoklasse hover på knappen, endrer bakgrunnsfargen til litt lysere */
+#emailBox button :hover {
     background-color: #e7c768;
  }
 
+/* inputknappen har 7px padding rundt hele */
 form input{
     padding: 7px;
 }
@@ -208,8 +246,9 @@ form input{
 
 
 /* Media Queries */
-
+/* Gjør at alt under 600px vil fungere med koden under */
 @media screen and (max-width: 600px) {
+    /* På mobile vile A tagen displayes som flex og legges i kolonne */
     #navbar ul li a {
         display: flex;
         flex-direction: column;
