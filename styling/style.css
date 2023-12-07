@@ -171,6 +171,58 @@ main {
     text-align: left;
 }
 
+#LD-whiskey{
+    margin-left: 40px;
+}
+
+#LD-whiskey img{
+    max-width: 500px;
+    height: 300px;
+}
+
+#ld-bilde {
+    display: flex;
+}
+
+#omLd {
+    display: flex;
+    flex-direction: column;
+}
+
+#pLD {
+    max-width: 60%;
+    padding-top: 1rem;
+}
+
+#Lundgrens {
+    margin-left: 40px;
+}
+
+#Lundgrens img {
+    max-width: 500px;
+    height: 300px;
+}
+
+#skaane-bilde {
+    display: flex;
+}
+
+#omSkaane {
+    display: flex;
+    flex-direction: column;
+}
+
+#pSkaane {
+    max-width: 60%;
+    padding-top: 1rem;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 60%;
+}
+
 /* sentrerer overskriften og legger 10% luft på venstre side */
 #textR h2{
     text-align:center;
