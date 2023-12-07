@@ -170,53 +170,63 @@ main {
     margin-left: 15%;
     text-align: left;
 }
-
+/* Legger alt litt ut fra kanten */
 #LD-whiskey{
     margin-left: 40px;
 }
 
+/* Setter størrelse på bildet */
 #LD-whiskey img{
     max-width: 500px;
     height: 300px;
 }
 
+/* Displayer bilde-diven som flex */
 #ld-bilde {
     display: flex;
 }
 
+/* Displayer teksten som flex, og legger den i kolonne */
 #omLd {
     display: flex;
     flex-direction: column;
 }
 
+/* Gjør boksen til teksten smalere, og legger på luft i toppen */
 #pLD {
     max-width: 60%;
     padding-top: 1rem;
 }
 
+/* Flytter alt ut fra kanten */
 #Lundgrens {
     margin-left: 40px;
 }
 
+/* Setter størrelse på bildet */
 #Lundgrens img {
     max-width: 500px;
     height: 300px;
 }
 
+/* displayer bildet som flex */
 #skaane-bilde {
     display: flex;
 }
 
+/* Displayer seksjonen som flex og legger det i kolonne */
 #omSkaane {
     display: flex;
     flex-direction: column;
 }
 
+/* Gjør boksen til teksten smalere, og legger på luft i toppen */
 #pSkaane {
     max-width: 60%;
     padding-top: 1rem;
 }
 
+/* Lager linje mellom seksjonene, legger på luft for å dele opp mer og gjør teksten smalere */
 hr {
     margin-top: 100px;
     margin-bottom: 100px;
