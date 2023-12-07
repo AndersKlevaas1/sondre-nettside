@@ -19,7 +19,7 @@ html {
     background-color: black;
 }
 
-/* -------------Header------------- */
+/*  ------------------Header------------------ */
 
 /* Displayer header som flex / sentrerer og legger alt i kolonne */
 header {
@@ -91,7 +91,7 @@ header img {
     text-decoration: underline; 
 }
 
-/* -------------Main------------- */
+/*  ------------------Index Main------------------ */
 
 /* Displayer containeren som flex, sentrerer og plasserer innholdet til venstre */
 .indexcontainerL {
@@ -107,15 +107,16 @@ header img {
 }
 
 /* sentrerer teksten */
-.texth2L {
+.textL {
     text-align: center;
 }
 
 /* Legger teksten til venstre, og legger margin på høyre og venstre side av p-tagen */
-.texth2L p {
+.textL p {
     text-align: left;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 15%;  
+    
 }
 
 /*setter sizen til bildene og lar bildet bruke 0.3sec på å zoome ut og inn  */
@@ -171,12 +172,78 @@ main {
     text-align: left;
 }
 
+/* ------------------Reviews main------------------*/
+
+/* Legger alt litt ut fra kanten */
+#LD-whiskey{
+    margin-left: 40px;
+}
+
+/* Setter størrelse på bildet */
+#LD-whiskey img{
+    max-width: 500px;
+    height: 300px;
+}
+
+/* Displayer bilde-diven som flex */
+#ld-bilde {
+    display: flex;
+}
+
+/* Displayer teksten som flex, og legger den i kolonne */
+#omLd {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Gjør boksen til teksten smalere, og legger på luft i toppen */
+#pLD {
+    max-width: 60%;
+    padding-top: 1rem;
+}
+
+/* Flytter alt ut fra kanten */
+#Lundgrens {
+    margin-left: 40px;
+}
+
+/* Setter størrelse på bildet */
+#Lundgrens img {
+    max-width: 500px;
+    height: 300px;
+}
+
+/* displayer bildet som flex */
+#skaane-bilde {
+    display: flex;
+}
+
+/* Displayer seksjonen som flex og legger det i kolonne */
+#omSkaane {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Gjør boksen til teksten smalere, og legger på luft i toppen */
+#pSkaane {
+    max-width: 60%;
+    padding-top: 1rem;
+}
+
+/* Lager linje mellom seksjonene, legger på luft for å dele opp mer og gjør teksten smalere */
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 60%;
+}
+
 /* sentrerer overskriften og legger 10% luft på venstre side */
 #textR h2{
     text-align:center;
     margin-right: 10%;
 }
-/* -------------Footer------------- */
+/* ------------------Footer------------------ */
 
 /* Bakgrunnsfarge på footeren og hvit tekst */
 footer {
@@ -243,13 +310,13 @@ form input{
     padding: 7px;
 }
 
-/* -------------Om oss main------------- */
+/* Om oss main */
 
 /* Setter max bredde og høyde på bilde, og ramme */
 .ansattitem img {
     height: 400px;
     width: 300px;
-    border-style: groove
+    border-style: groove;
 }
  
 /* En flexbox som skal inneholde flex items */
@@ -274,7 +341,7 @@ form input{
 
 
 
-/* -------------Media Queries------------- */
+/* Media Queries */
 /* Gjør at alt under 600px vil fungere med koden under */
 @media screen and (max-width: 600px) {
     /* På mobile vile A tagen displayes som flex og legges i kolonne */
