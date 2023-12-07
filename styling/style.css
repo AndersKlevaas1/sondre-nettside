@@ -220,6 +220,7 @@ main {
     flex-direction: column;
 }
 
+
 /* Gjør boksen til teksten smalere, og legger på luft i toppen */
 #pSkaane {
     max-width: 60%;
