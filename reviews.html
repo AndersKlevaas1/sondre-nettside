@@ -6,12 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/ssr (1).ico" type="image/x-icon">
     <link rel="stylesheet" href="styling/style.css">
     <title>Document</title>
 </head>
 <body>
     <h1 id="overskrift">Sondre's Snus Reveiws</h1>
     <header>
+        <img src="img/sondressnusreviews3.png" alt="">
         <nav id="navbar">
             <ul>
                 <li><a href="index.html">‎ ‎ Hjem‎ ‎</a></li>
@@ -22,24 +24,28 @@
         </nav>
     </header>
 
-    <main id="main">
+    <main id="reviewmain">
 
         <h1>REVIEWS</h1>
 
         <div id="LD-whiskey">
+            <h2>LD Whiskey Orginal</h2>
             <div id="ld-bilde">
-        <h2>LD Whiskey Orginal</h2>
         <img src="img/ld-whiskey-original-limited-edition.png" alt="Bilde av LD whiskey snusboks">
     </div>
     <p>Snusen på agendaen er en LD whiskey, limited edition. Etter nøye testing (en hel boks) har jeg vurdert denne boksen slik:</p>
     <div id="omLD">
+        <div id="rowSSR">
         <ul>
             <li>Smak: 7/10</li>
             <li>Konsistens: 6/10</li>
             <li>Styrke: 4/10</li>
             <li>Holdbarhet: 7/10</li>
         </ul>
-        
+
+        <p>SRR SCORE: </p>
+        <span class="stars">★★★☆☆</span>
+    </div>
         <p id="pLD">Denne snusen får virkelig fram den søte whiskeysmaken den reklamerer for, smaken holdt gjennom hele oppholdet av snusen i leppa.
             Snusposen var myk, men inneholdt noen klumper som ikke gjorde den helt smooth. Dette er trekk.
             Innholdet av nikotin er 10mg/pr pose, noe som rangerer denne på middels styrke. Det var ikke noe kick, men avhengiheten ble stimulert.
@@ -51,19 +57,22 @@
 
 <hr>
     <div id="Lundgrens">
+        <h2>Lundgrens Skåne Stark</h2>
         <div id="skaane-bilde">
-    <h2>Lundgrens Skåne Stark</h2>
     <img src="img/lundgrens-skane-stark-vit-portion.png" alt="Bilde av lundgrens skåne snusboks">
 </div>
 <p>Snusen på agendaen er en Lundgrens skåne stark, Etter nøye testing (en hel boks) har jeg vurdert denne boksen slik:</p>
 <div id="omSkaane">
+    <div id="rowSSR">
     <ul>
         <li>Smak: 10/10</li>
         <li>Konsistens: 8/10</li>
         <li>Styrke: 7/10</li>
         <li>Holdbarhet: 9/10</li>
     </ul>
-    
+    <p>SRR SCORE: </p>
+    <span class="stars">★★★★★</span>
+</div>
     <p id="pSkaane">Denne snusen er virkelig en favoritt. Lundgrens Skåne stark har en mild smak av bark og tre.
         Dette er en snus som passer til alle anledninger, enten om det er skole, jobb, bursdag, brylupp eller hva nå enn du skal være i,
         så passer denne snusen. Snusen har en god konsistens, men er litt myk, det er litt som å ta på nysnø. Stark versjonen inneholder litt mer nikotin
@@ -73,5 +82,22 @@
 </div>
 </div>
     </main>
+    <footer>
+        <div id="footerDiv">
+            <div id="footerBilde">
+                <img src="img/ssr.png" alt="">
+            </div>
+            <section id="footerEmail">
+                <article id="emailBox">
+                    <h2>Ønsker du flere snus reviews??</h2>
+                    <label for="forslag">Send inn forslag til hva du ønsker at jeg skal prøve!</label>
+                    <form id="emailForm">
+                        <input type="text" id="text" name="text" placeholder="Epok Freeze..."> 
+                        <button><a href="mailto:sondrehanson@gmail.com" class="email-button">Send inn forslag!</a></button>
+                    </form>
+                </article>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>

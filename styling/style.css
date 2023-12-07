@@ -170,20 +170,33 @@ main {
     margin-left: 15%;
     text-align: left;
 }
+
+#reviewmain {
+    /* display: inline-block; */
+    text-align: center;
+    align-items: center;
+}
+
+#reviewmain ul li {
+    list-style: none;
+}
 /* Legger alt litt ut fra kanten */
 #LD-whiskey{
-    margin-left: 40px;
+    /* margin-left: 40px; */
 }
 
 /* Setter størrelse på bildet */
 #LD-whiskey img{
     max-width: 500px;
     height: 300px;
+    margin: auto;
 }
 
 /* Displayer bilde-diven som flex */
 #ld-bilde {
     display: flex;
+    align-items: center;
+
 }
 
 /* Displayer teksten som flex, og legger den i kolonne */
@@ -192,32 +205,54 @@ main {
     flex-direction: column;
 }
 
+#rowSSR li{
+    margin-left: 375px;
+    padding-right: 5em;
+}
+#rowSSR {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 250px;
+}
+
+#rowSSR p {
+    padding-top: 0.7rem;
+    font-size: 24px;
+}
+
+.stars {
+    font-size: 40px;
+    margin-right: 100px;
+}
+
 /* Gjør boksen til teksten smalere, og legger på luft i toppen */
 #pLD {
     max-width: 60%;
     padding-top: 1rem;
+    margin: auto;
+    text-align: left;
 }
 
-/* Flytter alt ut fra kanten */
-#Lundgrens {
-    margin-left: 40px;
-}
 
 /* Setter størrelse på bildet */
 #Lundgrens img {
     max-width: 500px;
     height: 300px;
+    margin: auto;
 }
 
 /* displayer bildet som flex */
 #skaane-bilde {
     display: flex;
+    
 }
 
 /* Displayer seksjonen som flex og legger det i kolonne */
 #omSkaane {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 
@@ -225,6 +260,7 @@ main {
 #pSkaane {
     max-width: 60%;
     padding-top: 1rem;
+    text-align: left;
 }
 
 /* Lager linje mellom seksjonene, legger på luft for å dele opp mer og gjør teksten smalere */
@@ -279,6 +315,7 @@ footer {
     font-size: 20px;
     border: none;
     margin-left: 20px;
+    max-width: 200px;
 }
 
 /* endrer størrelsen på teksten og lager 50px luft i toppen */
@@ -335,7 +372,119 @@ form input{
     font-size: large;
 }
 
+/* ------------------CONTACT US ----------------------- */
 
+#takeContact {
+    text-align: center;
+    font-size: 50px;
+}
+#contact-us{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Messagecontainer {
+    background-color: #fff;
+    color:black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin-left: 18%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form {
+    gap: 10px;
+    font-size: 22px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    font-size: 28px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#vilkaar {
+    max-width: 90%;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#vilkaar p {
+    text-align: left;
+    max-width: 60%;
+    margin:auto;
+    font-size: 25px;
+    color: #3a3a3a;
+}
+
+#vilkaar h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.innledning {
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+#avslutning {
+    margin-bottom: 40px;
+}
+
+
+footer img{
+    display: flex;
+    max-width: 180px;
+    height: 150px;
+}
+
+#footerDiv {
+    display: flex;
+    align-items: center; 
+}
+
+#footerBilde {
+    
+}
+
+#footerEmail {
+    margin-left: 22%; 
+}
+
+
+#footerDiv input {
+    margin-bottom: 10px;
+}
 
 /* Media Queries */
 /* Gjør at alt under 600px vil fungere med koden under */
